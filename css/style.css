@@ -19,6 +19,10 @@ h2 {
   color: #B4C34F;
 }
 
+img {
+  max-width: 100%;
+}
+
 .btn {
   color: #FAF3BC;
   background: #4FB69F url('img/texture.png') no-repeat right top;
@@ -26,6 +30,7 @@ h2 {
   margin: 40px 0px;
   border-radius: 25px;
   text-transform: uppercase;
+  width:100%;
 }
 
 .btn:hover {
@@ -57,7 +62,7 @@ ul.nav li a {
 
 #new-cupcakes img {
   border: 8px solid #FAF3BC;
-  margin: 0 0 7px 0;
+  margin: 0 0 1.72% 0;
 }
 
 #featured-cupcake img {
@@ -70,6 +75,7 @@ ul.nav li a {
   margin: 15px 0px;
   text-align: center;
 }
+
 
 
 
