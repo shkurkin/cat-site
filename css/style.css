@@ -20,7 +20,7 @@ h2 {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .btn {
@@ -76,11 +76,59 @@ ul.nav li a {
   text-align: center;
 }
 
+#intro h1 {
+  padding-right: 2%;
+}
 
 
+/* Media Queries */
 
+@media screen and (max-width: 650px) {
+  .grid_1,
+  .grid_2,
+  .grid_3,
+  .grid_4,
+  .grid_5,
+  .grid_6,
+  .grid_7,
+  .grid_8,
+  .grid_9,
+  .grid_10,
+  .grid_11,
+  .grid_12 {
+    width:100%;
+  }
+  .nav .last {
+    display: none;
+  }
 
+  ul.nav {
+    width: 100%;
+    margin-top: 5%;
+  }
 
+  ul.nav li {
+    width: 33%;
+    margin: 0;
+    text-align: center;
+  }
+
+  #mind-control {
+    display: none;
+  }
+
+  #intro {
+    margin: 10px 0 30px 0;
+  }
+
+  #intro p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+}
 
 
 
