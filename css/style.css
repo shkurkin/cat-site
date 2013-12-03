@@ -126,8 +126,43 @@ ul.nav li a {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 659px) and (max-width: 740px) {
+  .space1 {
+    margin-bottom: 2.3em;
+  }
+}
 
+@media screen and (min-width: 830px) and (max-width: 884px){
+  #mind-control {
+  width: 105%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -436px;
+  }
+}
+
+@media screen and (max-width: 829px) {
+  .last {
+    display: none;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  #intro {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #intro p {
+    text-align: center;
+  }
+
+  #new-cupcakes img {
+    margin-bottom: -0.493%;
+  }
 }
 
 
